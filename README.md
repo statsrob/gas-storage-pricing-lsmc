@@ -29,8 +29,8 @@ The last command writes figures/forwards.png, figures/schwartz_paths.png, figure
 1. Daily forwards F(t): annual cosine plus week-weekend overlay, fitted to the two quotes.
 2. Contract: Exhibit 1 rates and volume grid (alpha = 2500, N = 101).
 3. Intrinsic: deterministic DP on F.
-4. Spots: one-factor Schwartz (1997) with E[S_t] = F_t, antithetic, kappa = 0.05.
-5. LSMC: per day and next-volume node, OLS of remaining cash on 1, S, S^2, S^3. Longstaff-Schwartz: decide with C-hat, roll realised Y.
+4. Spots: one-factor Schwartz (1997) with $E[S_t] = F_t$, antithetic, $kappa = 0.05$.
+5. LSMC: per day and next-volume node, OLS of remaining cash on 1, $S$, $S^2$, $S^3$. Longstaff-Schwartz: decide with C-hat, roll realised Y.
 
 ## Not in this repo (on purpose)
 
